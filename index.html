@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bau-Cockpit Wuppertal · Alpha Quadrat</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Filme zum Bau-Cockpit Wuppertal von Alpha Quadrat: aus öffentlichen Unterlagen der Stadt, jede Zahl mit Fundstelle.">
+<meta property="og:title" content="Bau-Cockpit Wuppertal · Alpha Quadrat"><meta property="og:image" content="poster_kurz.jpg">
+<style>
+:root{--navy:#0f1a2b;--ink:#111827;--blau:#2f5fa3;--hell:#7fa6e0;--grau:#5b6472;--linie:#d7dbe0;--bg:#f4f6f9}
+*{box-sizing:border-box}html,body{margin:0}body{font-family:Helvetica,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.5}
+header{background:var(--navy);color:#fff;padding:22px 24px}header .in{max-width:1180px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.marke{font-size:12px;letter-spacing:.32em;font-weight:700}.sub{font-family:Menlo,Consolas,monospace;font-size:11px;letter-spacing:.2em;color:#9fb0c8}
+main{max-width:1180px;margin:0 auto;padding:36px 24px 60px}
+.k{font-family:Menlo,Consolas,monospace;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--grau)}
+h1{font-size:clamp(30px,5vw,48px);letter-spacing:-.02em;margin:8px 0 10px;line-height:1.1}h2{font-size:24px;margin:44px 0 10px}
+p.lead{font-size:18px;color:#344054;max-width:860px;margin:0 0 22px}
+.player{background:#000;position:relative;aspect-ratio:16/9;width:100%;box-shadow:0 18px 50px rgba(15,26,43,.22)}video{width:100%;height:100%;display:block;background:#000}
+.leiste{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 0}
+a.knopf{display:inline-block;padding:10px 16px;border:1.5px solid var(--navy);color:var(--navy);text-decoration:none;font-size:14px;font-weight:700}a.knopf:hover{background:var(--navy);color:#fff}
+a.knopf.voll{background:var(--navy);color:#fff}
+.zwei{display:grid;grid-template-columns:2fr 1fr;gap:28px;align-items:start}@media(max-width:860px){.zwei{grid-template-columns:1fr}}
+ol.kap{list-style:none;margin:0;padding:0;border-top:2px solid var(--ink)}ol.kap li{border-bottom:1px solid var(--linie)}
+ol.kap button{all:unset;cursor:pointer;display:grid;grid-template-columns:34px 1fr auto;gap:8px;width:100%;padding:9px 4px;font-size:15px}ol.kap button:hover{background:var(--bg)}
+.nr{font-family:Menlo,Consolas,monospace;font-size:12px;color:var(--blau);padding-top:2px}.zt{font-family:Menlo,Consolas,monospace;font-size:12px;color:var(--grau)}
+.hinweis{border-left:3px solid var(--blau);background:var(--bg);padding:14px 18px;margin:36px 0;font-size:15px;color:#344054;max-width:900px}
+footer{border-top:1px solid var(--linie);margin-top:50px;padding:22px 24px;font-size:13px;color:var(--grau)}footer .in{max-width:1180px;margin:0 auto}footer a{color:var(--blau)}
+.claim{font-size:22px;font-weight:700;margin-top:40px}
+</style></head><body>
+<header><div class="in"><div><div class="marke">ALPHA QUADRAT</div><div class="sub">BAUPLANUNG UND PROJEKTMANAGEMENT · WUPPERTAL</div></div><div class="sub">BAU-COCKPIT · STADT WUPPERTAL</div></div></header>
+<main>
+<div class="k">Filme zum Bau-Cockpit · Stand Oktober 2026</div>
+<h1>56.000 Seiten öffentliche Unterlagen. Elf Werkzeuge. Ein Cockpit.</h1>
+<p class="lead">Ein Werkzeug, das Ratsvorlagen, Quartalsberichte des Investitionscontrollings und den Prüfbericht der gpaNRW liest und daraus Arbeitsentwürfe für die Bauverwaltung macht. Jede Zahl mit Fundstelle, lokal auf einem Rechner, ohne Cloud.</p>
+<div class="k" style="margin-bottom:8px">Kurzfilm · 3 Minuten</div>
+<div class="player"><video id="v1" controls playsinline preload="metadata" poster="poster_kurz.jpg"></video></div>
+<div class="leiste"><a class="knopf" href="https://github.com/yankhy-source/aq-film-wuppertal/releases/download/v1/AQ_Bau-Cockpit_Kurzfilm.mp4" download>Kurzfilm herunterladen (MP4, 46 MB)</a></div>
+<h2>Gesamtfilm · 27 Minuten in elf Kapiteln</h2>
+<div class="zwei"><div><div class="player"><video id="v2" controls playsinline preload="metadata" poster="poster_gesamt.jpg"></video></div>
+<div class="leiste"><a class="knopf" href="https://github.com/yankhy-source/aq-film-wuppertal/releases/download/v1/AQ_Bau-Cockpit_Wuppertal_Gesamtfilm.mp4" download>Gesamtfilm herunterladen (MP4, 349 MB)</a></div></div>
+<div><div class="k" style="margin-bottom:6px">Kapitel · Klick springt an die Stelle</div><ol class="kap"><li><button onclick="spring(13.5)"><span class="nr">01</span><span class="tt">Überblick und Frühwarnung</span><span class="zt">0:13</span></button></li><li><button onclick="spring(395.0)"><span class="nr">02</span><span class="tt">Hebel, Kosten, Prüfung</span><span class="zt">6:35</span></button></li><li><button onclick="spring(692.9)"><span class="nr">03</span><span class="tt">Vergaben steuern</span><span class="zt">11:32</span></button></li><li><button onclick="spring(841.7)"><span class="nr">04</span><span class="tt">Die Arbeitsmaschine</span><span class="zt">14:01</span></button></li><li><button onclick="spring(930.5)"><span class="nr">05</span><span class="tt">Fragen Sie das Cockpit</span><span class="zt">15:30</span></button></li><li><button onclick="spring(1036.5)"><span class="nr">06</span><span class="tt">Anfragen beantworten</span><span class="zt">17:16</span></button></li><li><button onclick="spring(1131.1)"><span class="nr">07</span><span class="tt">Vorlagen schreiben</span><span class="zt">18:51</span></button></li><li><button onclick="spring(1204.4)"><span class="nr">08</span><span class="tt">Quartalsbericht vorbereiten</span><span class="zt">20:04</span></button></li><li><button onclick="spring(1272.5)"><span class="nr">09</span><span class="tt">Förderung sichern</span><span class="zt">21:12</span></button></li><li><button onclick="spring(1358.1)"><span class="nr">10</span><span class="tt">Bauaufsicht beschleunigen</span><span class="zt">22:38</span></button></li><li><button onclick="spring(1467.0)"><span class="nr">11</span><span class="tt">Vorgangswege planen</span><span class="zt">24:27</span></button></li></ol></div></div>
+<div class="hinweis"><b>Zur Einordnung.</b> Alles in den Filmen stammt ausschließlich aus öffentlich zugänglichen Quellen der Stadt Wuppertal und der gpaNRW. Interne Daten der Stadt wurden weder angefragt noch verwendet. Wo mit Annahmen gerechnet wird, ist das im Film gekennzeichnet. Entscheidungen trifft das Werkzeug nicht; prüfen, abstimmen und zeichnen bleibt bei der Verwaltung.</div>
+<div class="claim">Wir sind Problemlöser.</div>
+</main>
+<footer><div class="in">Alpha Quadrat Bauplanung und Projektmanagement UG (haftungsbeschränkt) · Am Adamshäuschen 31, 42111 Wuppertal · Telefon 0202 26159801 · <a href="mailto:info@alpha-quadrat.de">info@alpha-quadrat.de</a> · <a href="https://www.alpha-quadrat.de">www.alpha-quadrat.de</a> · <a href="https://www.alpha-quadrat.de/impressum">Impressum</a><br>Amtsgericht Wuppertal, HRB 37161 · Geschäftsführer: Yankhoba Momodou Osterholzer · Fachlich verantwortlich: Lazaros Amperidis, Architekt AKNW 32316</div></footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.5.13/hls.min.js"></script>
+<script>
+function lade(id, src, mp4){const v=document.getElementById(id);
+ if(v.canPlayType('application/vnd.apple.mpegurl')){v.src=src}
+ else if(window.Hls&&Hls.isSupported()){const h=new Hls({maxBufferLength:30});h.loadSource(src);h.attachMedia(v);h.on(Hls.Events.ERROR,(e,d)=>{if(d.fatal){h.destroy();v.src=mp4}})}
+ else{v.src=mp4}}
+lade('v1','kurz/index.m3u8','https://github.com/yankhy-source/aq-film-wuppertal/releases/download/v1/AQ_Bau-Cockpit_Kurzfilm.mp4');
+lade('v2','gesamt/index.m3u8','https://github.com/yankhy-source/aq-film-wuppertal/releases/download/v1/AQ_Bau-Cockpit_Wuppertal_Gesamtfilm.mp4');
+function spring(s){const v=document.getElementById('v2');v.scrollIntoView({behavior:'smooth',block:'center'});const go=()=>{v.currentTime=s;v.play()};if(v.readyState>0)go();else v.addEventListener('loadedmetadata',go,{once:true})}
+</script>
+</body></html>
